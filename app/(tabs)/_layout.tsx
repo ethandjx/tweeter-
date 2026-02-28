@@ -11,6 +11,10 @@ export default function TabsLayout() {
         name="post"
         options={{ title: 'Post' }}
       />
+      <Tabs.Screen
+        name="test"
+        options={{ title: 'Test' }}
+      />
     </Tabs>
   );
 }
