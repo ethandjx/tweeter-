@@ -61,7 +61,7 @@ export default function PostScreen() {
       const newPost: Post = {
         id: Date.now().toString(),
         content: newPostContent,
-        likes: 0,
+        likes: 5,
         timestamp: new Date()
       };
 
